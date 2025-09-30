@@ -15,7 +15,6 @@ export function Header() {
           className="object-contain"
           priority
         />
-        <span className="font-semibold text-gray-800">QuickBooks Support</span>
         <a href="tel:+1-800-361-0550" className="flex items-center gap-2 text-green-600 font-semibold hover:text-green-700 transition">
           <Phone className="w-4 h-4" />
           +1-800-361-0550

@@ -1,4 +1,5 @@
-import { Shield, CreditCard, Phone, Mail } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
+import Image from 'next/image';
 
 export function Footer() {
   const usefulLinks = [
@@ -27,12 +28,14 @@ export function Footer() {
             <h3 className="text-white font-bold text-lg mb-4">QBO Solution INC</h3>
             <p className="text-sm mb-4">
               Disclaimer: QBO Solutions INC is an independent QuickBooks Pro-Advisor for QuickBooks Products. QBO and its brands like QuickBooks, Intuit, and the QuickBooks logo are registered trademarks of Intuit Inc.
+              <Image
+                src="/card.jpg"
+                alt="QuickBooks Verified ProAdvisor"
+                width={180}
+                height={180}
+                className="h-10 object-contain"
+              />
             </p>
-            <img
-              src="/card.jpg" // Path to your local image
-              alt="QuickBooks Verified ProAdvisor"
-              className="h-20 object-contain"
-            />
           </div>
 
           <nav aria-labelledby="useful-links">
@@ -62,9 +65,11 @@ export function Footer() {
           </nav>
 
           <div>
-            <img
-              src="/Logo.jpg" // Path to your local image
+            <Image
+              src="/Logo.jpg"
               alt="QuickBooks Verified ProAdvisor"
+              width={80}
+              height={80}
               className="w-20 h-20 object-contain"
             />
             <div className="space-y-2">
