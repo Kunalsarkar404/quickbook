@@ -13,7 +13,7 @@ export function Hero() {
         </h1>
         <p className="text-xl md:text-2xl mb-8">
           Need Quick Product Support?<br />
-          We're here to help you.
+          We&#39;re here to help you.
         </p>
         <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition shadow-lg hover:shadow-xl">
           Toll Free: +1-866-495-1879
