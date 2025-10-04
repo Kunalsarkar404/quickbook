@@ -4,28 +4,34 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'Which QuickBooks Desktop Version is right for me?',
-    answer: 'Deciding which QuickBooks Desktop Version is right for you depends on which features you need or want and seeing how much money you want to spend for it. Both QuickBooks Desktop Versions have a lot of great features. QuickBooks Pro, Premier, and Enterprise have great features. If you know you want a QuickBooks Desktop product, deciding which version to buy is simply deciding which features you don&apos;t need and those that you do.'
+    question: 'Which QuickBooks Desktop version is right for me?',
+    answer:
+      'Choosing the right QuickBooks Desktop version depends on the features you need and your budget. Pro, Premier, and Enterprise each offer powerful tools for managing your business. The key is to identify which features are essential for your operations and select the version that best fits your requirements.'
   },
   {
-    question: 'How much does a QuickBooks Bookkeeping Service cost?',
-    answer: 'The first month of service for cleanup and onboarding is $399. After the first month, the ongoing Bookkeeping service is available in 3 different service Plans, depending on your company&apos;s average monthly expenses over a one month period.\n\nTo gain operational efficiency\nTo have access to the best technology and infrastructure\nTo gain access to a huge, tech-driven talent pool that could turn around work in a short time span with utmost accuracy'
+    question: 'How much does QuickBooks Bookkeeping Service cost?',
+    answer:
+      'The first month, which includes cleanup and onboarding, is $399. After that, ongoing bookkeeping is offered through three different service plans, based on your company’s average monthly expenses.\n\nBenefits include:\n- Improved operational efficiency\n- Access to the latest technology and infrastructure\n- A skilled, tech-driven talent pool that ensures fast, accurate results'
   },
   {
-    question: 'How do I hire a QuickBooks expert?',
-    answer: 'You can visit the Find a ProAdvisor website to look for an accountant or bookkeeper near you that offers their expertise in QuickBooks.'
+    question: 'How do I find and hire a QuickBooks expert?',
+    answer:
+      'You can visit the official QuickBooks ProAdvisor directory to connect with certified accountants or bookkeepers in your area who specialize in QuickBooks.'
   },
   {
-    question: 'What is the best for small and medium size businesses?',
-    answer: 'QuickBooks is the Number #1 rated Accounting software for small and medium size businesses. QuickBooks Software helps to manage the SKPs, Mid-size, large size scaled industrial businesses by keeping the tab of financial transactions monthly and yearly. For Business & QuickBooks Accounting Services, Contact us on our website, Let us set up and initiate your accounting plan on which your business growth.'
+    question: 'Is QuickBooks best for small and medium-sized businesses?',
+    answer:
+      'Yes. QuickBooks is the #1 rated accounting software for small and mid-sized businesses. It helps track financial transactions, generate reports, and simplify bookkeeping. For tailored QuickBooks setup and accounting services, reach out to us and let’s create a plan to support your business growth.'
   },
   {
-    question: 'QuickBooks Cloud hosting is the best decision for the business?',
-    answer: 'QuickBooks Cloud Hosting gives you flexibility to work form home or anywhere at any time on any device, ds cloud hosting gives you the freedom to access your quickbooks software from anywhere, anytime. You can work with your client based transactions and make the future easier. Cloud hosting offers you the best in class performance and reliability. Having Professionals who expertise on QuickBooks services will make your business hassle free.'
+    question: 'Is QuickBooks Cloud Hosting a good choice for my business?',
+    answer:
+      'Absolutely. QuickBooks Cloud Hosting allows you to securely access your QuickBooks software anytime, anywhere, from any device. It provides flexibility, top-notch performance, and reliability. Working with professionals experienced in QuickBooks cloud services ensures smoother operations and a hassle-free experience.'
   },
   {
-    question: 'When will QuickBooks 2024 be available?',
-    answer: 'QuickBooks 2024 desktop software for the subscription based and scheduled to be released to businesses. QuickBooks Desktop 2024 subscriptions provide customers with the same locally-installed rich interface, with added features and functionality that provides the best value and best in-class product experience.'
+    question: 'When will QuickBooks 2024 be released?',
+    answer:
+      'QuickBooks Desktop 2024, available on a subscription basis, is scheduled for release soon. It offers the same rich, locally-installed interface along with new features and functionality designed to deliver maximum value and an enhanced product experience.'
   }
 ];
 
@@ -43,10 +49,10 @@ export function FAQSection() {
           FAQs
         </h2>
         <h3 className="text-xl font-semibold text-center text-gray-800 mb-8">
-          FAQ About Outsourced Bookkeeping Services
+          Frequently Asked Questions About Outsourced Bookkeeping
         </h3>
         <p className="text-center text-gray-600 mb-12">
-          Here are Frequently Asked Questions about virtual bookkeeping services. If your bookkeeping question isn&apos;t answered below, please contact us.
+          Here are some of the most common questions about virtual bookkeeping and QuickBooks services. If you don’t see your question here, feel free to reach out to us.
         </p>
 
         <div className="space-y-4">
@@ -56,7 +62,10 @@ export function FAQSection() {
                 onClick={() => toggleFAQ(index)}
                 className="w-full text-left py-4 flex justify-between items-center hover:text-green-600 transition"
               >
-                <span className={`font-semibold ${openIndex === index ? 'text-green-600' : 'text-gray-900'}`}>
+                <span
+                  className={`font-semibold ${openIndex === index ? 'text-green-600' : 'text-gray-900'
+                    }`}
+                >
                   {faq.question}
                 </span>
                 <span className="text-2xl">{openIndex === index ? '−' : '+'}</span>

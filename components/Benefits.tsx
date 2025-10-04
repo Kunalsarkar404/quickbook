@@ -5,32 +5,32 @@ export function Benefits() {
     {
       icon: Upload,
       title: 'FREE UPGRADES',
-      description: 'When you sign up for our services you will get a free QuickBooks Multi-User license.'
+      description: 'Enjoy free QuickBooks multi-user licenses included with your subscription no extra cost.'
     },
     {
       icon: Cloud,
-      title: 'FREE DATA MIGRATION',
-      description: 'Get free QuickBooks data migration from your local system to Cloud, 100% safe, and using the latest cloud migration tools.'
+      title: 'COMPLIMENTARY DATA MIGRATION',
+      description: 'Seamlessly move your QuickBooks data from local systems to the cloud with our secure, latest migration tools.'
     },
     {
       icon: RefreshCw,
-      title: 'FREE DATA CONVERSION',
-      description: 'Complete QuickBooks data conversion services without a hitch. Trust our experts so you can work freely without any hassles.'
+      title: 'HASSLE-FREE DATA CONVERSION',
+      description: 'Rely on our experts for smooth QuickBooks data conversion, so you can focus on your business stress-free.'
     },
     {
       icon: Database,
-      title: 'DAILY ONLINE DATA BACKUP',
-      description: 'QuickBooks cloud backup services make it easy for you to back up your data in the cloud in just one click.'
+      title: 'AUTOMATED DAILY BACKUPS',
+      description: 'Your QuickBooks data is backed up online every day, giving you one-click restore whenever needed.'
     },
     {
       icon: Shield,
-      title: 'FREE PREMIUM INDEPENDENT SERVICES',
-      description: 'With our QuickBooks cloud services premium plan, you get access to all add-on features for free.'
+      title: 'FREE PREMIUM ADD-ONS',
+      description: 'Access premium QuickBooks cloud features and add-ons at no extra charge with our hosting plan.'
     },
     {
       icon: Headphones,
-      title: 'DEDICATED TECHNICAL SUPPORT TEAM',
-      description: 'Work with experienced cloud experts and get 24x7 technical support to solve and manage your QuickBooks issues.'
+      title: '24/7 EXPERT SUPPORT',
+      description: 'Get round-the-clock assistance from our dedicated cloud specialists to resolve issues anytime.'
     }
   ];
 
@@ -38,10 +38,10 @@ export function Benefits() {
     <section className="py-20 bg-gray-50" aria-labelledby="benefits-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 id="benefits-heading" className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">
-          Boost Your Business With Hosted QuickBooks on Cloud
+          Supercharge Your Business With QuickBooks Cloud Hosting
         </h2>
         <p className="text-center text-gray-600 mb-12 text-lg">
-          Upgrade the user experience with Hosted QuickBooks On Cloud
+          Enhance your productivity and simplify workflows with QuickBooks on the cloud.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (

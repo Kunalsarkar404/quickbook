@@ -6,15 +6,16 @@ import { generateOrganizationSchema, generateServiceSchema, generateLocalBusines
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://qbosolution.ca'),
+  metadataBase: new URL('https://www.qbooks.online/'),
   title: {
-    default: 'QuickBooks Support & Cloud Hosting Services | QBO Solution INC',
-    template: '%s | QBO Solution INC'
+    default: 'QuickBooks Support & Cloud Hosting Services | Q Books',
+    template: '%s | Q Books',
   },
   icons: {
     icon: '/Logo.jpg',
   },
-  description: 'Professional QuickBooks support, cloud hosting, and CPA services. Get expert help with QuickBooks errors, data migration, multi-user hosting, and technical support. Call +1-800-361-0550 for 24/7 assistance.',
+  description:
+    'Expert QuickBooks support, cloud hosting, and CPA services. Get professional help with QuickBooks errors, data migration, multi-user hosting, and technical support. Call +1-800-361-0550 for 24/7 assistance.',
   keywords: [
     'QuickBooks support',
     'QuickBooks cloud hosting',
@@ -27,11 +28,11 @@ export const metadata: Metadata = {
     'QuickBooks Pro Advisor',
     'QuickBooks consulting',
     'cloud accounting',
-    'QuickBooks backup'
+    'QuickBooks backup',
   ],
-  authors: [{ name: 'QBO Solution INC' }],
-  creator: 'QBO Solution INC',
-  publisher: 'QBO Solution INC',
+  authors: [{ name: 'Q Books' }],
+  creator: 'Q Books',
+  publisher: 'Q Books',
   formatDetection: {
     email: false,
     address: false,
@@ -40,23 +41,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://qbosolution.ca',
-    title: 'QuickBooks Support & Cloud Hosting Services | QBO Solution INC',
-    description: 'Professional QuickBooks support, cloud hosting, and CPA services. Get expert help with QuickBooks errors, data migration, and technical support.',
-    siteName: 'QBO Solution INC',
+    url: 'https://www.qbooks.online/',
+    title: 'QuickBooks Support & Cloud Hosting Services | Q Books',
+    description:
+      'Professional QuickBooks support, cloud hosting, and CPA services. Get expert help with QuickBooks errors, data migration, and technical support.',
+    siteName: 'Q Books',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'QBO Solution INC - QuickBooks Support Services',
+        alt: 'Q Books - QuickBooks Support Services',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'QuickBooks Support & Cloud Hosting Services',
-    description: 'Professional QuickBooks support and cloud hosting. 24/7 expert assistance.',
+    description:
+      'Expert QuickBooks support and cloud hosting. 24/7 professional assistance.',
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -71,7 +74,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://qbosolution.ca',
+    canonical: 'https://www.qbooks.online/',
   },
   verification: {
     google: 'your-google-verification-code',

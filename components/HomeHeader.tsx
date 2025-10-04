@@ -10,10 +10,10 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         <Link href="/">
           <Image
-            src="/Logo.jpg"
-            alt="Quick Books"
-            width={60}
-            height={30}
+            src="/logo.png"
+            alt="Q Books"
+            width={150}
+            height={50}
             className="object-contain"
             priority
           />

@@ -7,18 +7,20 @@ export function AllInOne() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              All-in-one accounting software
+              Complete Accounting Solution
             </h2>
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">OUR OTHER SMALL BUSINESS SERVICES</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  ADDITIONAL SMALL BUSINESS SERVICES
+                </h3>
                 <div className="space-y-2">
                   <p className="font-semibold text-gray-800">Compliance</p>
                   <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                    <li>Bookkeeping: Management of the general ledger</li>
-                    <li>Knowledgeable Local Sales Tax, VAT</li>
-                    <li>Legally Required Corporate Documentation</li>
+                    <li>Bookkeeping: Maintain and manage your general ledger</li>
+                    <li>Expert guidance on Sales Tax, VAT, and local regulations</li>
+                    <li>Preparation of legally required corporate documents</li>
                   </ul>
                 </div>
               </div>
@@ -26,17 +28,17 @@ export function AllInOne() {
               <div>
                 <p className="font-semibold text-gray-800">Management</p>
                 <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                  <li>Bookkeeping: manage daily transactions</li>
-                  <li>Payroll: Management of payroll and taxes</li>
-                  <li>Planning: Reporting and advice to support growth</li>
+                  <li>Day-to-day transaction tracking and bookkeeping</li>
+                  <li>Payroll services with accurate tax handling</li>
+                  <li>Strategic planning, reports, and insights to drive growth</li>
                 </ul>
               </div>
 
               <div>
                 <p className="font-semibold text-gray-800">Advisory</p>
                 <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                  <li>Reporting: Help directors make informed decisions</li>
-                  <li>Capital Fundraising: Advice on seeking equity to help grow your business</li>
+                  <li>Actionable reporting to help leaders make smart decisions</li>
+                  <li>Guidance on fundraising and securing capital for expansion</li>
                 </ul>
               </div>
             </div>
@@ -45,9 +47,10 @@ export function AllInOne() {
           <div className="flex justify-center">
             <Image
               src="/software.webp"
-              alt="All-in-one accounting software"
+              alt="Complete accounting software interface"
               width={500}
               height={400}
+              className="rounded-lg shadow-md"
             />
           </div>
         </div>

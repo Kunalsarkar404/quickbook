@@ -6,15 +6,15 @@ export function Features() {
   const features = [
     {
       image: '/image1/20943767.jpg',
-      title: 'Anywhere & Anytime Access',
+      title: 'Access Anytime, Anywhere',
       description:
-        'Enjoy the flexibility to work from home or anywhere on anytime on any device. QB cloud hosting gives you the freedom to access your QuickBooks software from anywhere at any time.'
+        'Work seamlessly from home, the office, or on the go. With QuickBooks cloud hosting, your accounting software is always within reach—on any device, at any time.'
     },
     {
       image: '/image2/Tiny business persons working on jigsaw puzzle together.jpg',
-      title: 'Multi-User Collaboration',
+      title: 'Real-Time Team Collaboration',
       description:
-        'Save your time from the tedious task of versioning and sharing files. We will help you and your clients to work on the same QuickBooks file at the same time from wherever you are.'
+        'Forget the hassle of file sharing and version control. Collaborate with your team and clients on the same QuickBooks file simultaneously, no matter where you are.'
     }
   ];
 

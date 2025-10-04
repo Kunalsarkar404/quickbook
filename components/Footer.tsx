@@ -25,15 +25,15 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">QBO Solution INC</h3>
+            <h3 className="text-white font-bold text-lg mb-4">Q Books</h3>
             <p className="text-sm mb-4">
-              Disclaimer: QBO Solutions INC is an independent QuickBooks Pro-Advisor for QuickBooks Products. QBO and its brands like QuickBooks, Intuit, and the QuickBooks logo are registered trademarks of Intuit Inc.
+              Disclaimer: Q Books is an independent QuickBooks ProAdvisor. QuickBooks, Intuit, and the QuickBooks logo are registered trademarks of Intuit Inc. All rights belong to their respective owners.
               <Image
                 src="/card.jpg"
                 alt="QuickBooks Verified ProAdvisor"
                 width={180}
                 height={180}
-                className="h-10 object-contain"
+                className="h-10 object-contain mt-4"
               />
             </p>
           </div>
@@ -67,13 +67,13 @@ export function Footer() {
           <div>
             <Image
               src="/Logo.jpg"
-              alt="QuickBooks Verified ProAdvisor"
+              alt="Q Books Logo"
               width={80}
               height={80}
               className="w-20 h-20 object-contain"
             />
-            <div className="space-y-2">
-              <h4 className="text-white font-semibold">Contact Us:</h4>
+            <div className="space-y-2 mt-4">
+              <h4 className="text-white font-semibold">Contact Us</h4>
               <a href="tel:+13364951970" className="flex items-center space-x-2 text-sm hover:text-green-600">
                 <Phone className="w-4 h-4" aria-hidden="true" />
                 <span>+1-336-495-1970</span>
@@ -87,7 +87,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
-          <p>All rights reserved. Powered By QBO Solution INC</p>
+          <p>© All rights reserved. Powered by Q Books</p>
         </div>
       </div>
     </footer>

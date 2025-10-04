@@ -35,7 +35,7 @@ export function ProfessionalSupport() {
               src="/image3.jpg"
               alt="Professional customer support representative with headset assisting clients"
               width={800}
-              height={600}
+              height={450}
               className="rounded-lg shadow-2xl w-full"
               priority
             />

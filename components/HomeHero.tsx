@@ -11,7 +11,7 @@ export function HomeHero() {
           <div>
             <Image
               src="/home-hero-image.jpg"
-              alt="Accounting Software Demo"
+              alt="Accounting Software Preview"
               width={500}
               height={350}
               className="rounded-lg shadow-lg"
@@ -22,13 +22,15 @@ export function HomeHero() {
               <h3 className="text-lg md:text-base font-bold text-gray-700">
                 BUY QUICKBOOKS
               </h3>
-              <span className="text-lg md:text-lg font-semibold text-gray-600">#1 ACCOUNTING SOFTWARE</span>
+              <span className="text-lg md:text-lg font-semibold text-gray-600">
+                The #1 Accounting Software
+              </span>
             </div>
             <p className="text-xs md:text-xl font-semibold text-gray-900">
-              Buy Accounting & Bookkeeping Software. Get started with a free Demo or Consultation!
+              Purchase powerful accounting & bookkeeping software. Start with a free demo or personalized consultation!
             </p>
             <p className="text-lg text-gray-700">
-              Have a question ? Speak to our specialist
+              Got questions? Talk to one of our specialists today.
             </p>
             <Link href="/quick-assist">
               <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition shadow-lg hover:shadow-xl">

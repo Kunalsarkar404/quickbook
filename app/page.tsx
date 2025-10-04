@@ -1,4 +1,4 @@
-import { Header } from '@/components/Header';
+import { Header } from '@/components/HomeHeader';
 import { HomeHero } from '@/components/HomeHero';
 import { AllInOne } from '@/components/AllInOne';
 import { ShopByCategory } from '@/components/ShopByCategory';
