@@ -8,9 +8,9 @@ export function Header() {
     <header className="bg-white shadow-sm fixed top-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         <Image
-          src="/Logo.jpg"
-          alt="QuickBooks Verified ProAdvisor"
-          width={60}
+          src="/logo (1).png"
+          alt="QBO Solution"
+          width={180}
           height={60}
           className="object-contain"
           priority

@@ -1,4 +1,3 @@
-import { Monitor, Users } from 'lucide-react';
 
 export function Features() {
   const features = [

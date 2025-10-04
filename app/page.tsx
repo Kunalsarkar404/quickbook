@@ -1,11 +1,8 @@
 import { Header } from '@/components/Header';
-import { Hero } from '@/components/Hero';
-import { ProfessionalSupport } from '@/components/ProfessionalSupport';
-import { Features } from '@/components/Features';
-import { KeyFeatures } from '@/components/KeyFeatures';
-import { Benefits } from '@/components/Benefits';
-import { CallToAction } from '@/components/CallToAction';
-import { Pricing } from '@/components/Pricing';
+import { HomeHero } from '@/components/HomeHero';
+import { AllInOne } from '@/components/AllInOne';
+import { ShopByCategory } from '@/components/ShopByCategory';
+import { FAQSection } from '@/components/FAQSection';
 import { DiscountBanner } from '@/components/DiscountBanner';
 import { Footer } from '@/components/Footer';
 
@@ -13,13 +10,10 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
-      <Hero />
-      <ProfessionalSupport />
-      <Features />
-      <KeyFeatures />
-      <Benefits />
-      <CallToAction />
-      <Pricing />
+      <HomeHero />
+      <AllInOne />
+      <ShopByCategory />
+      <FAQSection />
       <DiscountBanner />
       <Footer />
     </main>
