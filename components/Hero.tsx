@@ -12,7 +12,7 @@ export function Hero() {
       <section
         className="relative bg-gradient-to-r from-gray-800 to-gray-900 text-white pt-34 pb-18 md:pt-42 md:pb-22"
         style={{
-          backgroundImage: "url('/hero.jpg')",
+          backgroundImage: "url('/hero.webp')",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",

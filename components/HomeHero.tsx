@@ -10,11 +10,12 @@ export function HomeHero() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <Image
-              src="/home-hero-image.jpg"
+              src="/home-hero-image.webp"
               alt="Accounting Software Preview"
               width={500}
               height={350}
               className="rounded-lg"
+              priority
             />
           </div>
           <div className="space-y-6">
