@@ -2,23 +2,26 @@
 
 import { Phone } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export function Header() {
   return (
-    <header className="bg-white shadow-sm fixed top-0 w-full z-50">
+    <header className="bg-white absolute top-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-        <Image
-          src="/logo (1).png"
-          alt="QBO Solution"
-          width={180}
-          height={60}
-          className="object-contain"
-          priority
-        />
-        <a href="tel:+1-800-361-0550" className="flex items-center gap-2 text-green-600 font-semibold hover:text-green-700 transition">
+        <Link href="/">
+          <Image
+            src="/logo (1).png"
+            alt="QBO Solution"
+            width={150}
+            height={50}
+            className="object-contain"
+            priority
+          />
+        </Link>
+        {/* <a href="tel:+1-800-361-0550" className="flex items-center gap-2 text-green-600 font-semibold hover:text-green-700 transition">
           <Phone className="w-4 h-4" />
           +1-800-361-0550
-        </a>
+        </a> */}
       </div>
     </header>
   );

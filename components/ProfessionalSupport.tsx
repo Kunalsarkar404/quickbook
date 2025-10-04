@@ -26,9 +26,9 @@ export function ProfessionalSupport() {
                 </li>
               ))}
             </ul>
-            <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold transition shadow-md hover:shadow-lg">
+            {/* <button className="bg-green-600 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold transition shadow-md hover:shadow-lg">
               Call Us: +1-866-495-1879
-            </button>
+            </button> */}
           </div>
           <div className="relative">
             <Image

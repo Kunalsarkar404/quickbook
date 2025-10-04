@@ -43,7 +43,7 @@ export function Footer() {
             <ul className="space-y-2" role="list">
               {usefulLinks.map((link, index) => (
                 <li key={index}>
-                  <a href={link.href} className="text-sm hover:text-green-500 transition-colors">
+                  <a href={link.href} className="text-sm hover:text-green-600 transition-colors">
                     {link.text}
                   </a>
                 </li>
@@ -56,7 +56,7 @@ export function Footer() {
             <ul className="space-y-2" role="list">
               {authenticityLinks.map((link, index) => (
                 <li key={index}>
-                  <a href={link.href} className="text-sm hover:text-green-500 transition-colors">
+                  <a href={link.href} className="text-sm hover:text-green-600 transition-colors">
                     {link.text}
                   </a>
                 </li>
@@ -74,11 +74,11 @@ export function Footer() {
             />
             <div className="space-y-2">
               <h4 className="text-white font-semibold">Contact Us:</h4>
-              <a href="tel:+13364951970" className="flex items-center space-x-2 text-sm hover:text-green-500">
+              <a href="tel:+13364951970" className="flex items-center space-x-2 text-sm hover:text-green-600">
                 <Phone className="w-4 h-4" aria-hidden="true" />
                 <span>+1-336-495-1970</span>
               </a>
-              <a href="mailto:info@qbosolution.ca" className="flex items-center space-x-2 text-sm hover:text-green-500 break-all">
+              <a href="mailto:info@qbosolution.ca" className="flex items-center space-x-2 text-sm hover:text-green-600 break-all">
                 <Mail className="w-4 h-4" aria-hidden="true" />
                 <span>info@qbosolution.ca</span>
               </a>

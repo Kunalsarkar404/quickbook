@@ -44,11 +44,10 @@ export function AllInOne() {
 
           <div className="flex justify-center">
             <Image
-              src="/image3.jpg"
+              src="/software.webp"
               alt="All-in-one accounting software"
               width={500}
               height={400}
-              className="rounded-lg shadow-lg"
             />
           </div>
         </div>

@@ -30,18 +30,35 @@ export function LiveAssistModal({ isOpen, onClose }: LiveAssistModalProps) {
     e.preventDefault();
     setIsSubmitting(true);
 
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    try {
+      const response = await fetch('https://formspree.io/f/xqaylanz', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          phone: formData.phone,
+          email: formData.email,
+          issues: formData.issues
+        })
+      });
 
-    console.log('Form submitted:', formData);
+      if (!response.ok) throw new Error('Form submission failed');
 
-    setSubmitted(true);
-    setIsSubmitting(false);
-
-    setTimeout(() => {
-      onClose();
-      setSubmitted(false);
+      setSubmitted(true);
       setFormData({ name: '', phone: '', email: '', issues: '' });
-    }, 2000);
+    } catch (error) {
+      console.error('Formspree Error:', error);
+      alert('Something went wrong. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+
+      setTimeout(() => {
+        onClose();
+        setSubmitted(false);
+      }, 2000);
+    }
   };
 
   if (!isOpen) return null;
@@ -79,7 +96,7 @@ export function LiveAssistModal({ isOpen, onClose }: LiveAssistModalProps) {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 text-gray-700 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent"
                   placeholder="Your name"
                 />
               </div>
@@ -95,7 +112,7 @@ export function LiveAssistModal({ isOpen, onClose }: LiveAssistModalProps) {
                   value={formData.phone}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 text-gray-700 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent"
                   placeholder="Your phone number"
                 />
               </div>
@@ -111,7 +128,7 @@ export function LiveAssistModal({ isOpen, onClose }: LiveAssistModalProps) {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 text-gray-700 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent"
                   placeholder="your.email@example.com"
                 />
               </div>
@@ -127,7 +144,7 @@ export function LiveAssistModal({ isOpen, onClose }: LiveAssistModalProps) {
                   onChange={handleChange}
                   required
                   rows={4}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent resize-none"
+                  className="w-full px-4 py-2 border border-gray-300 text-gray-700 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent resize-none"
                   placeholder="Describe your issue..."
                 />
               </div>
