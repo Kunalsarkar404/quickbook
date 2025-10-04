@@ -14,7 +14,7 @@ export function HomeHero() {
               alt="Accounting Software Preview"
               width={500}
               height={350}
-              className="rounded-lg shadow-lg"
+              className="rounded-lg"
             />
           </div>
           <div className="space-y-6">

@@ -50,7 +50,7 @@ export function AllInOne() {
               alt="Complete accounting software interface"
               width={500}
               height={400}
-              className="rounded-lg shadow-md"
+              className="rounded-lg"
             />
           </div>
         </div>

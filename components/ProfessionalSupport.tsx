@@ -36,7 +36,7 @@ export function ProfessionalSupport() {
               alt="Professional customer support representative with headset assisting clients"
               width={800}
               height={450}
-              className="rounded-lg shadow-2xl w-full"
+              className="rounded-lg w-full"
               priority
             />
           </div>
