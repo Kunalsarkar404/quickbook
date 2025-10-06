@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
 
 interface LiveAssistModalProps {
@@ -33,15 +33,8 @@ export function LiveAssistModal({ isOpen, onClose }: LiveAssistModalProps) {
     try {
       const response = await fetch('https://formspree.io/f/xqaylanz', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          name: formData.name,
-          phone: formData.phone,
-          email: formData.email,
-          issues: formData.issues
-        })
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
       });
 
       if (!response.ok) throw new Error('Form submission failed');
@@ -53,13 +46,16 @@ export function LiveAssistModal({ isOpen, onClose }: LiveAssistModalProps) {
       alert('Something went wrong. Please try again.');
     } finally {
       setIsSubmitting(false);
-
-      setTimeout(() => {
-        onClose();
-        setSubmitted(false);
-      }, 2000);
     }
   };
+
+  // ✅ Reset form each time modal reopens
+  useEffect(() => {
+    if (isOpen) {
+      setSubmitted(false);
+      setFormData({ name: '', phone: '', email: '', issues: '' });
+    }
+  }, [isOpen]);
 
   if (!isOpen) return null;
 
@@ -81,7 +77,9 @@ export function LiveAssistModal({ isOpen, onClose }: LiveAssistModalProps) {
             <div className="text-center py-8">
               <div className="text-green-600 text-5xl mb-4">✓</div>
               <p className="text-xl font-semibold text-gray-900">Thank you!</p>
-              <p className="text-gray-600 mt-2">We&apos;ll connect with you shortly.</p>
+              <p className="text-gray-600 mt-2">
+                Your Request Has Been Received! Our 24/7 support team will contact you shortly.
+              </p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4">
