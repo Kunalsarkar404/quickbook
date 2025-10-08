@@ -70,7 +70,7 @@ export function ShopByCategory() {
                 <span className="text-gray-400 line-through text-sm">{product.originalPrice}</span>
                 <span className="text-blue-600 font-bold text-lg">{product.salePrice}</span>
               </div>
-              <Link href="/quick-assist">
+              <Link href="/quick-/quick-assist">
                 <button className="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded font-semibold transition">
                   Add to cart
                 </button>
@@ -80,7 +80,7 @@ export function ShopByCategory() {
         </div>
 
         <div className="text-center">
-          <Link href="/quick-assist">
+          <Link href="/quick-/quick-assist">
             <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition shadow-lg hover:shadow-xl">
               Shop Now
             </button>

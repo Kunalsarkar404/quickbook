@@ -9,17 +9,17 @@ import { DiscountBanner } from '@/components/DiscountBanner';
 import { Footer } from '@/components/Footer';
 
 export default function ProductsPage() {
-  return (
-    <main className="min-h-screen bg-white">
-      <Header />
-      <Hero />
-      <ProfessionalSupport />
-      <KeyFeatures />
-      <Benefits />
-      <CallToAction />
-      <Pricing />
-      <DiscountBanner />
-      <Footer />
-    </main>
-  );
+    return (
+        <main className="min-h-screen bg-white">
+            <Header />
+            <Hero />
+            <ProfessionalSupport />
+            <KeyFeatures />
+            <Benefits />
+            <CallToAction />
+            <Pricing />
+            <DiscountBanner />
+            <Footer />
+        </main>
+    );
 }

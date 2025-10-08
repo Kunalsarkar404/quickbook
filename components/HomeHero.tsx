@@ -33,7 +33,7 @@ export function HomeHero() {
             <p className="text-lg text-gray-700">
               Got questions? Talk to one of our specialists today.
             </p>
-            <Link href="/quick-assist">
+            <Link href="/quick-/quick-assist">
               <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold text-lg transition shadow-lg hover:shadow-xl">
                 Buy Now
               </button>
