@@ -1,6 +1,5 @@
 'use client';
 
-import { Phone } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -18,10 +17,6 @@ export function Header() {
             priority
           />
         </Link>
-        {/* <a href="tel:+1-800-361-0550" className="flex items-center gap-2 text-green-600 font-semibold hover:text-green-700 transition">
-          <Phone className="w-4 h-4" />
-          +1-800-361-0550
-        </a> */}
       </div>
     </header>
   );

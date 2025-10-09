@@ -21,7 +21,7 @@ const faqs = [
   {
     question: 'Is QuickBooks best for small and medium-sized businesses?',
     answer:
-      'Yes. QuickBooks is the #1 rated accounting software for small and mid-sized businesses. It helps track financial transactions, generate reports, and simplify bookkeeping. For tailored QuickBooks setup and accounting services, reach out to us and let’s create a plan to support your business growth.'
+      'Yes. QuickBooks is the #1 rated accounting software for small and mid-sized businesses. It helps track financial transactions, generate reports, and simplify bookkeeping. For tailored QuickBooks setup and accounting services, reach out to us and let’s create a plan to scale your business growth.'
   },
   {
     question: 'Is QuickBooks Cloud Hosting a good choice for my business?',

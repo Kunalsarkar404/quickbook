@@ -9,8 +9,8 @@ export function Pricing() {
       description: 'Free data migration & multi-user plan',
       features: [
         'Maintenance or upgrades activities',
-        'Round the Clock Support',
-        'Dual Monitor Support',
+        'Round the Clock Assistance',
+        'Dual Monitor Assistance',
         'Mobile Access',
         '99.999% Uptime Guarantee',
         'Daily Data Backup'
@@ -28,7 +28,6 @@ export function Pricing() {
         'Active Reader',
         'Mac Compatibility',
         'Open Office',
-        'Remote Scan',
         'Data Hub'
       ],
       highlighted: true
@@ -42,8 +41,7 @@ export function Pricing() {
         'Free Software & Payroll Services',
         'Unlimited Space',
         'Updated Windows Server',
-        'Microsoft Office Services',
-        '24/7 Dedicated Technical Support'
+        '24/7 Dedicated Team Support',
       ],
       highlighted: false
     }

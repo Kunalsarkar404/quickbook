@@ -73,7 +73,7 @@ export function Footer() {
               className="w-20 h-20 object-contain"
             />
             <div className="space-y-2 mt-4">
-              <h4 className="text-white font-semibold">Contact Us</h4>
+              <h4 className="text-gray-700 font-semibold">Contact Us</h4>
               <a href="mailto:info@qbooks.com" className="flex items-center space-x-2 text-sm hover:text-green-600 break-all">
                 <Mail className="w-4 h-4" aria-hidden="true" />
                 <span>info@qbooks.com</span>

@@ -21,11 +21,11 @@ export function Hero() {
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Getting QuickBooks® Errors?
+            Need QuickBooks Software Solutions?
           </h1>
           <p className="text-xl md:text-2xl mb-8">
-            Need Quick Product Support?<br />
-            We&#39;re here to help you.
+            QuickBooks solutions and assistants<br />
+            Get trusted help from certified QB CPA professionals
           </p>
           <button
             onClick={() => setIsModalOpen(true)}

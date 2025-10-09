@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     icon: '/Logo.jpg',
   },
   description:
-    'Expert QuickBooks support, cloud hosting, and CPA services. Get professional help with QuickBooks errors, data migration, multi-user hosting, and technical support. Call +1-800-361-0550 for 24/7 assistance.',
+    'Expert QuickBooks assistance, cloud hosting, and CPA services. Get professional help with QuickBooks errors, data migration, multi-user hosting, and technical support. Call +1-800-361-0550 for 24/7 assistance.',
   keywords: [
-    'QuickBooks support',
+    'QuickBooks assistance',
     'QuickBooks cloud hosting',
     'QuickBooks errors',
     'QuickBooks help',
